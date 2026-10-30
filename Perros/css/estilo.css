@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "mifuente";
+    src: url('../perros.img/fuentes/sigmar_one.woff');
+}
+
+body {
+    margin: 20px;
+    padding: 0px;
+    background: #d1dff1;
+}
+
+#contenedor {
+    width: 854px;
+    margin: 0px auto;
+}
+
+#contenido {
+    width: 90%;
+    margin: 0px auto;
+    background-color: #d1dff1;
+}
+
+#contenedor h1 {
+    font-family: mifuente;
+    text-align: center;
+    color: black;
+    margin: 0px;
+    line-height: 1.5em;
+}
+
+#contenedor h2 {
+    font-family: mifuente;
+    color: rgb(100, 128, 207);
+    margin: 0px;
+    line-height: 1.5em;
+    text-shadow: 2px 2px 2px black;
+}
+
+.parafo-0{
+    font-size: 0.95rem;
+}
+.separador {
+  width: 450px;            
+  height: 6px;             
+  background-color: #7b9bbf; 
+  border: 2px solid #1a1a2e; 
+  border-radius: 10px;    
+  margin: 40px auto;      
+}
+.imagen-1{
+    border: 4px solid #7b9bbf;
+    float: left;
+    margin-right: 10px;
+}
+.imagen-2{
+    border: 4px solid #7b9bbf;
+    float: right;
+    margin-right: 10px;
+
+}
+.imagen-3{
+    border: 4px solid #7b9bbf;
+    margin-right: 10px;
+    flex-shrink: 0; 
+}
+.contenedor-abajo {
+    display: flex;
+    gap: 30px ;
+}
+.contenedor-abajo > div {
+    flex: 1;
+}
+footer {
+    text-align: right;
+    margin-top: -6px;
+}
+.azul{
+    color: blue;
+}
+.rojita{
+    background-color: white;
+    color: red;
+}
